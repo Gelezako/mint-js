@@ -1,0 +1,9 @@
+near create-account nft-js.gelezako.testnet --masterAccount gelezako.testnet
+near init --accountId nft-js.gelezako.testnet --template as
+npm init -y 
+npm install near-sdk-js
+mkdir src
+touch src/index.js
+
+cargo near deploy nft-js.gelezako.testnet without-init-call network-config testnet sign-with-keychain send
+
