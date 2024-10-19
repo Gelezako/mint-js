@@ -8,4 +8,7 @@ repository = "https://github.com/Gelezako/mint-js"
 
 [package.metadata.near.reproducible_build]
 image = "ubuntu:20.04"
-container_build_command = "cargo build --target wasm32-unknown-unknown --release"
+[package.metadata.near.reproducible_build]
+image = "ubuntu:20.04"
+container_build_command = ["cargo", "build", "--target", "wasm32-unknown-unknown", "--release"]
+
