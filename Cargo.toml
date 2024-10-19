@@ -7,7 +7,8 @@ repository = "https://github.com/Gelezako/mint-js"
 [dependencies]
 
 [package.metadata.near.reproducible_build]
-image = "ubuntu:20.04"
+image = "rust:latest"
 image_digest = "sha256:57df66b9fc9ce2947e434b4aa02dbe16f6685e20db0c170917d4a1962a5fe6a9"
 container_build_command = ["cargo", "build", "--target", "wasm32-unknown-unknown", "--release"]
+
 
