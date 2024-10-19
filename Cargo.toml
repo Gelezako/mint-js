@@ -8,4 +8,4 @@ repository = "https://github.com/Gelezako/mint-js"
 
 [package.metadata.near.reproducible_build]
 image = "ubuntu:20.04"
-image_digest = "57df66b9fc9ce2947e434b4aa02dbe16f6685e20db0c170917d4a1962a5fe6a9"
+image_digest = "sha256:57df66b9fc9ce2947e434b4aa02dbe16f6685e20db0c170917d4a1962a5fe6a9"
