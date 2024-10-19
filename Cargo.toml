@@ -7,8 +7,8 @@ repository = "https://github.com/Gelezako/mint-js"
 [dependencies]
 
 [package.metadata.near.reproducible_build]
-image = "rust:latest"
-image_digest = "sha256:57df66b9fc9ce2947e434b4aa02dbe16f6685e20db0c170917d4a1962a5fe6a9"
-container_build_command = ["cargo", "build", "--target", "wasm32-unknown-unknown", "--release"]
+image = "node:16"
+image_digest = "sha256:c4c4cf393abb23b27c7f6266be5b3b42ce4561d5d06bf5f7c9e6673aa1eb9989"
+container_build_command = ["npm", "run", "build"]
 
 
